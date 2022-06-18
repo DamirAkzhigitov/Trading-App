@@ -4,7 +4,11 @@ import Fastify from 'fastify'
 import FastifyCors from 'fastify-cors'
 import FastifyWebsockets from 'fastify-websocket'
 
+// import { startA } from "./src/utils/xlsxReader";
+// startA()
+
 import mainRoute from './src/routes/index'
+
 
 const fastify = Fastify({ logger: true })
 

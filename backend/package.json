@@ -16,7 +16,8 @@
     "fastify-cors": "^6.0.2",
     "fastify-swagger": "^4.12.6",
     "fastify-websocket": "^4.0.0",
-    "http-errors": "^1.8.1"
+    "http-errors": "^1.8.1",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.18.9/xlsx-0.18.9.tgz"
   },
   "devDependencies": {
     "@types/http-errors": "^1.8.1",
