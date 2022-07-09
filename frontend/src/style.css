@@ -8,6 +8,9 @@
 svg {
   cursor: crosshair;
   border: 1px solid black;
+  [status="up"] {
+    stroke: #e72817;
+  }
 }
 
 table {

@@ -24,7 +24,7 @@ async function routes(fastify: FastifyInstance) {
           client.send(JSON.stringify(tick))
         }
       })
-      await timer(100)
+      await timer(Math.round(Math.random() * 500))
     }
   }
 
